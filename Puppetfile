@@ -60,8 +60,13 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-# github "elasticsearch", "2.8.0"
-# github "mysql",         "2.0.1"
-# github "postgresql",  "4.0.1"
-# github "redis",       "3.1.0"
-# github "sysctl",      "1.0.1"
+github "ohmyzsh",           "1.0.0", :repo => "erivello/puppet-ohmyzsh"
+github "iterm2",            "1.2.4"
+github "elasticsearch",     "2.9.1", :repo => "href/puppet-elasticsearch"
+github "redis",             "3.2.1", :repo => "TORO-IO/puppet-redis"
+github "memcached",         "2.0.0"
+github "sysctl",            "1.0.1"
+github "postgresql",        "4.0.1"
+github "imagemagick",       "1.3.0"
+github "java",              "1.8.4"
+github "mongodb",           "3.0.6", :repo => "jenslind/puppet-mongodb"

@@ -6,7 +6,6 @@ boxen::personal::homebrew_packages:
   - wget
   - curl
   - neo4j
-  - boot2docker
   - docker-compose
 boxen::personal::osx_apps:
   - spotify

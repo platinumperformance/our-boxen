@@ -8,6 +8,7 @@ class projects::eqco_hub {
     nginx         => true,
     redis         => true,
     ruby          => '2.2.3',
-    source        => 'platinumperformance/eqco_hub'
+    source        => 'platinumperformance/eqco_hub',
+    server_name   => 'eqco-hub.dev'
   }
 }

@@ -5,6 +5,7 @@ class projects::eqco_hub {
   boxen::project { 'eqco_hub':
     elasticsearch => true,
     postgresql    => true,
+    memcached     => true,
     nginx         => true,
     redis         => true,
     ruby          => '2.2.3',

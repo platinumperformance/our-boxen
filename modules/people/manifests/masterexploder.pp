@@ -13,8 +13,8 @@ class people::masterexploder {
 
   $env = {
     directories => {
-      home     => '/Users/iselby',
-      dotfiles => '/Users/iselby/dotfiles'
+      home     => '/Users/ian',
+      dotfiles => '/Users/ian/dotfiles'
     },
     dotfiles => [
       'zshrc'

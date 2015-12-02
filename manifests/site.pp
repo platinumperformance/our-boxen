@@ -86,6 +86,16 @@ node default {
     version      => '~> 1.7.11',
     node_version => '*',
   }
+  npm_module { 'ios-sim for all nodes':
+    module       => 'ios-sim',
+    version      => '~> 5.0.4',
+    node_version => '*',
+  }
+  npm_module { 'ios-deploy for all nodes':
+    module       => 'ios-deploy',
+    version      => '~> 1.8.3',
+    node_version => '*',
+  }
 
 
   # default ruby versions

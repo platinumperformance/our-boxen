@@ -65,9 +65,28 @@ node default {
 
   # node versions
   nodejs::version { '0.12': }
+  nodejs::version { '4.0.0': }
+
   class { 'nodejs::global':
-    version => '0.12'
+    version => '4.0.0'
   }
+
+  npm_module { 'bower for all nodes':
+    module       => 'bower',
+    version      => '~> 1.6.8',
+    node_version => '*',
+  }
+  npm_module { 'cordova for all nodes':
+    module       => 'cordova',
+    version      => '~> 5.4.1',
+    node_version => '*',
+  }
+  npm_module { 'ionic for all nodes':
+    module       => 'ionic',
+    version      => '~> 1.7.11',
+    node_version => '*',
+  }
+
 
   # default ruby versions
   ruby::version { '2.2.3': }

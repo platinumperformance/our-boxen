@@ -100,9 +100,10 @@ node default {
 
   # default ruby versions
   ruby::version { '2.2.3': }
+  ruby::version { '2.2.4': }
 
   class { 'ruby::global':
-    version => '2.2.3'
+    version => '2.2.4'
   }
 
   # common, useful packages

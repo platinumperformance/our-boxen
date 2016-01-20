@@ -8,7 +8,7 @@ class projects::wellness_hub {
     memcached     => true,
     nginx         => true,
     redis         => true,
-    ruby          => '2.2.3',
+    ruby          => '2.2.4',
     source        => 'platinumperformance/wellness_hub',
     server_name   => 'wellness-hub.dev'
   }

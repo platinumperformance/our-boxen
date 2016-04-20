@@ -29,7 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "3.11.0"
+github "boxen", "3.11.1"
 
 # Support for default hiera data in modules
 
@@ -44,7 +44,7 @@ github "foreman",     "1.2.0"
 github "gcc",         "3.0.2"
 github "git",         "2.7.92"
 github "go",          "2.1.0"
-github "homebrew",    "1.13.0"
+github "homebrew",    "2.0.2"
 github "hub",         "1.4.1"
 github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.6.0"
@@ -62,11 +62,11 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 github "ohmyzsh",           "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 github "iterm2",            "1.2.4"
-github "elasticsearch",     "2.9.1", :repo => "href/puppet-elasticsearch"
+github "elasticsearch",     "2.9.5", :repo => "href/puppet-elasticsearch"
 github "redis",             "3.2.1", :repo => "TORO-IO/puppet-redis"
 github "memcached",         "2.0.0"
 github "sysctl",            "1.0.1"
 github "postgresql",        "4.0.1"
 github "imagemagick",       "1.3.0"
 github "java",              "1.8.4"
-github "mongodb",           "3.0.6", :repo => "jenslind/puppet-mongodb"
+# github "mongodb",           "3.0.6", :repo => "jenslind/puppet-mongodb"

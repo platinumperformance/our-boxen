@@ -1,11 +1,10 @@
-
 boxen::personal::homebrew_packages:
   - htop
   - autojump
   - graphicsmagick
   - wget
   - curl
-  - neo4j
+  # - neo4j
   - docker-compose
 boxen::personal::osx_apps:
   - spotify

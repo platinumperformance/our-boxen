@@ -66,9 +66,10 @@ node default {
   # node versions
   nodejs::version { '0.12': }
   nodejs::version { '4.0.0': }
+  nodejs::version { '4.4.3': }
 
   class { 'nodejs::global':
-    version => '4.0.0'
+    version => '4.4.3'
   }
 
   npm_module { 'bower for all nodes':
@@ -126,5 +127,5 @@ node default {
   include elasticsearch
   include postgresql
   include memcached
-  include mongodb
+  # include mongodb
 }

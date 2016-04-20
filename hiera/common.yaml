@@ -1,0 +1,2 @@
+nodejs::nodenv::ensure: "v0.4.0"
+nodejs::build::ensure: "4edb7c94c2b85fc80b8d1794a6e632219af2acdf"

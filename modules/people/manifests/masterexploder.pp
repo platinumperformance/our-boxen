@@ -1,5 +1,5 @@
 class people::masterexploder {
-  include projects::all
+  # include projects::all
 
   # include sublime_text
 

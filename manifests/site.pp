@@ -71,12 +71,6 @@ node default {
   class { 'nodejs::global':
     version => '4.4.3'
   }
-
-  npm_module { 'bower for all nodes':
-    module       => 'bower',
-    version      => '~> 1.6.8',
-    node_version => '*',
-  }
   # npm_module { 'cordova for all nodes':
   #   module       => 'cordova',
   #   version      => '~> 5.4.1',

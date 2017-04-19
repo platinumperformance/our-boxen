@@ -2,18 +2,18 @@ boxen::personal::homebrew_packages:
   - htop
   - autojump
   - graphicsmagick
-  - wget
+  # - wget
   - curl
   # - neo4j
   - docker-compose
 boxen::personal::osx_apps:
-  - spotify
-  - skype
-  - adobe-creative-cloud
-  - bartender
-  - steam
-  - 1password
-  - slack
-  - sizeup
-  - mou
-  - istat-menus
+  # - spotify
+  # - skype
+  # - adobe-creative-cloud
+  # - bartender
+  # - steam
+  # - 1password
+  # - slack
+  # - sizeup
+  # - mou
+  # - istat-menus

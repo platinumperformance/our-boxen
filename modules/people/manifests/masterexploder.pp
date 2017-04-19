@@ -3,13 +3,13 @@ class people::masterexploder {
 
   # include sublime_text
 
-  package { 'elixir':
-    ensure => present
-  }
+  # package { 'elixir':
+  #   ensure => present
+  # }
 
-  package { 'go':
-    ensure => present
-  }
+  # package { 'go':
+  #   ensure => present
+  # }
 
   $env = {
     directories => {

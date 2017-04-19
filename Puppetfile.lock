@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.10.0)
+    git (2.11.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -41,7 +41,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.4.3)
+    hub (1.4.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
@@ -81,12 +81,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
-    postgresql (5.0.0)
+    postgresql (4.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
-    redis (4.0.1)
+    redis (4.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -145,10 +145,10 @@ DEPENDENCIES
   elasticsearch (= 2.9.6)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
-  git (= 2.10.0)
+  git (= 2.11.0)
   go (= 2.1.0)
   homebrew (= 2.1.0)
-  hub (= 1.4.3)
+  hub (= 1.4.4)
   inifile (= 1.4.1)
   iterm2 (>= 0)
   memcached (= 2.1.1)
@@ -159,8 +159,8 @@ DEPENDENCIES
   openssl (= 1.0.0)
   phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
-  postgresql (= 5.0.0)
-  redis (= 4.0.1)
+  postgresql (= 4.1.0)
+  redis (= 4.0.2)
   repository (= 2.4.1)
   ruby (= 8.5.6)
   stdlib (= 4.7.0)

@@ -64,42 +64,19 @@ node default {
   }
 
   # node versions
-  nodejs::version { '0.12': }
-  nodejs::version { '4.0.0': }
-  nodejs::version { '4.4.3': }
+  nodejs::version { '8.9.3': }
 
   class { 'nodejs::global':
-    version => '4.4.3'
+    version => '8.9.3'
   }
-  # npm_module { 'cordova for all nodes':
-  #   module       => 'cordova',
-  #   version      => '~> 5.4.1',
-  #   node_version => '*',
-  # }
-  # npm_module { 'ionic for all nodes':
-  #   module       => 'ionic',
-  #   version      => '~> 1.7.11',
-  #   node_version => '*',
-  # }
-  # npm_module { 'ios-sim for all nodes':
-  #   module       => 'ios-sim',
-  #   version      => '~> 5.0.4',
-  #   node_version => '*',
-  # }
-  # npm_module { 'ios-deploy for all nodes':
-  #   module       => 'ios-deploy',
-  #   version      => '~> 1.8.3',
-  #   node_version => '*',
-  # }
-
 
   # default ruby versions
-  ruby::version { '2.2.3': }
-  ruby::version { '2.2.4': }
+  ruby::version { '2.3.0': }
   ruby::version { '2.3.3': }
+  ruby::version { '2.3.4': }
 
   class { 'ruby::global':
-    version => '2.3.3'
+    version => '2.3.4'
   }
 
   # common, useful packages
@@ -117,10 +94,4 @@ node default {
   }
 
   include ohmyzsh
-  include iterm2::stable
-  include redis
-  include elasticsearch
-  include postgresql
-  include memcached
-  # include mongodb
 }
